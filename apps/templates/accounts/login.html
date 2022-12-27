@@ -21,7 +21,7 @@
               {% if msg %}
                 <span class="text-danger">{{ msg | safe }}</span>
               {% else %}
-                  Add your credentials
+                  Silahkan Login
               {% endif %}  
           </h6>
           
@@ -53,11 +53,11 @@
 
             <br />
 
-            <button type="submit" name="login" class="btn btn-primary pull-left">Login</button>
+            <button type="submit" name="login" class="btn btn-primary pull-left">Masuk</button>
 
             &nbsp; &nbsp; 
             <span class="pull-right">
-              Don't have an account? <a href="{% url 'register' %}" class="text-primary">Create</a>
+              Daftar akun? <a href="{% url 'register' %}" class="text-primary">Buat Akun</a>
             </span>
 
             <div class="clearfix"></div>
